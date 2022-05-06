@@ -1,5 +1,6 @@
 import About from "./components/About";
 import Developers from "./components/Developers";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Subscribe from "./components/Subscribe";
@@ -13,6 +14,7 @@ function App() {
       <About/>
       <Developers/>
       <Subscribe/>
+      <Footer/>
     </div>
   );
 }
