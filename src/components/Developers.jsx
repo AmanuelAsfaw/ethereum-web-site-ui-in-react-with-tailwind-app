@@ -2,10 +2,10 @@ import terminal from '../assets/terminal.png'
 function Developers() {
     return (
         <div className="w-full text-white bg-black">
-            <div className="max-w-[1240px] px-4 py-16 md:flex">
+            <div className="max-w-[1240px] px-4 py-16 md:flex items-center mx-auto">
                 <div>
                     <h1>Superpowers for DEFI developers.</h1>
-                    <p>
+                    <p className='py-4'>
                         Checkout the <span className="text-primary-blue">documentation</span>, the <span className="text-primary-blue">quick start</span>  or a guide below to
                         integrate your project with thousands of tokens and billions of
                         liquidity.
